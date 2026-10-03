@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Моя домашняя страница</title>
+    <link rel="preconnect" href="https://googleapis.com">
+    <link rel="preconnect" href="https://gstatic.com" crossorigin>
+    <link href="https://googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+    
+    <style>
+        body {
+            font-family: 'Roboto', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f9;
+            color: #333;
+        }
+        header {
+            background-color: #2c3e50;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+        }
+        nav a {
+            color: #fff;
+            margin: 0 15px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        nav a:hover {
+            text-decoration: underline;
+        }
+        main {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+            background: #fff;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+        .profile-img {
+            max-width: 200px;
+            border-radius: 50%;
+            display: block;
+            margin: 20px 0;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+        }
+        th, td {
+            border: 1px solid #ddd;
+            padding: 10px;
+            text-align: left;
+        }
+        th {
+            background-color: #2c3e50;
+            color: white;
+        }
+        footer {
+            background-color: #34495e;
+            color: #ccc;
+            text-align: center;
+            padding: 15px;
+            margin-top: 40px;
+            font-size: 0.9em;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Добро пожаловать на мой сайт!</h1>
+        <nav>
+            <a href="#about">Обо мне</a>
+            <a href="#skills">Мои навыки</a>
+            <a href="#contacts">Контакты</a>
+        </nav>
+    </header>
+
+    <main>
+        <section id="about">
+            <h2>О себе</h2>
+            <p>Меня зовут Шарандина Полина. Я учусь разработке безнес приложений и создаю свою первую страничку.</p>
+            <img src="photo.jpg.jpg" alt="Моя фотография">
+        </section>
+
+        <section id="skills">
+            <h2>План обучения на втором курсе (2026-2027)</h2>
+            <p>Ниже представлена таблица с планом обучения и списком дисциплин, которые я изучаю в этом году:</p>
+            
+            <table>
+                <tr>
+                    <th>Период 3 (Семестр/Модуль)</th>
+                    <th>Период 4 (Семестр/Модуль)</th>
+                </tr>
+                <tr>
+                    <td>Иностранный язык</td>
+                    <td>Иностранный язык</td>
+                </tr>
+                <tr>
+                    <td>Математическая логика и теория алгоритмов в практике программирования</td>
+                    <td>Дискретные структуры и компьютинг</td>
+                </tr>
+                <tr>
+                    <td>Шаблоны проектирования приложений</td>
+                    <td>Теория вероятностей и математическая статистика</td>
+                </tr>
+		<tr>
+                    <td>Основы разработки корпоративных информационных систем</td>
+                    <td>Сети и системы передачи информации</td>
+                </tr>
+		<tr>
+                    <td>Проектирование баз данных</td>
+                    <td>Разработка корпоративных информационных систем</td>
+                </tr>
+		<tr>
+                    <td>Язык SQL</td>
+                    <td>Веб-разработка</td>
+                </tr>
+		<tr>
+                    <td>Основы веб-технологий</td>
+                    <td>Моделирование бизнес-процессов</td>
+                </tr>
+		<tr>
+                    <td>Структурное проектирование</td>
+                    <td>Основы технологического предпринимательства</td>
+                </tr>
+		<tr>
+                    <td>Основы бухгалтерского и управленческого учёта</td>
+                    <td>-</td>
+                </tr>
+		<tr>
+                    <td>Инженерная коммуникация в области информационных технологий</td>
+                    <td>-</td>
+                </tr>
+            </table>
+        </section>
+    </main>
+
+    <footer id="contacts">
+        <p>Связаться со мной: polinasharand2007@gmail.com | Телефон: +7 (000) 000-00-00</p>
+        <p>&copy; 2026 Шарандина Полина</p>
+    </footer>
+
+</body>
+</html>
